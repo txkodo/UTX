@@ -1,0 +1,5 @@
+{
+    "function": "set_name",
+    "entity": "this",
+    "name": { "storage": "utx:core", "nbt": "string.resolve.value", "interpret": false }
+}
