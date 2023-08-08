@@ -1,0 +1,2 @@
+execute unless data storage utx:core function.schedule.calls[-1].position run function utx:core/function/schedule/after/exec/rotation/
+execute if data storage utx:core function.schedule.calls[-1].position run function utx:core/function/schedule/after/exec/position/before_do

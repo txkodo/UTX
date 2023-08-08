@@ -1,2 +1,2 @@
 execute unless data storage utx:core function.schedule.calls[-1].dimension run function utx:core/function/schedule/after/exec/position/
-execute if data storage utx:core function.schedule.calls[-1].dimension run function utx:core/function/schedule/after/exec/dimension/do with storage 
+execute if data storage utx:core function.schedule.calls[-1].dimension run function utx:core/function/schedule/after/exec/dimension/do with storage utx:core function.schedule.calls[-1]

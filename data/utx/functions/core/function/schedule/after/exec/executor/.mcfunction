@@ -1,0 +1,2 @@
+execute unless data storage utx:core function.schedule.calls[-1].executor run function utx:core/function/schedule/after/exec/run/ with storage utx:core function.schedule.calls[-1]
+execute if data storage utx:core function.schedule.calls[-1].executor run function utx:core/function/schedule/after/exec/executor/do with storage utx:core function.schedule.calls[-1]

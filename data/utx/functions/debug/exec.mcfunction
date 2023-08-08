@@ -9,4 +9,3 @@
 
 $data modify storage utx:api in set value $(arg)
 $function $(function)
-tellraw @a {"storage":"utx:api","nbt":"out"}
